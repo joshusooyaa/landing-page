@@ -99,11 +99,11 @@ a {
 
 
 /* Start information styling */
-
 .information {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 20%;
   padding-bottom: 100px;
 }
 
@@ -146,3 +146,31 @@ a {
 }
 
 /* End information styling */
+
+
+/* Start quote-container styling */
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20%;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+
+
+
+/* End quote-container styling */
