@@ -56,6 +56,7 @@ a {
 .header-bar a img {
   height: 100%;
   width: auto;
+  border-radius: 8px;
 }
 
 .header-information .description {
@@ -95,3 +96,53 @@ a {
 }
 
 /* End header styling */
+
+
+/* Start information styling */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.information h2 {
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.information .images {
+  display: flex;
+  gap: 40px;
+}
+
+.information .images .image-container {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.information .images .image-container p {
+  margin: 5px 0;
+}
+
+.information .images .image {
+  width: 100%;
+  height: 160px;
+  border: 2.9px solid #3882F6;
+  border-radius: 10px;
+  object-fit: cover;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.information .images .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* End information styling */

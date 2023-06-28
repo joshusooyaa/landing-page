@@ -12,5 +12,10 @@ For more information about the project details, see [here](https://www.theodinpr
 ## Images
 Logo: https://www.pexels.com/photo/mooi-logo-1337380/ \
 Cow: https://www.pexels.com/photo/agriculture-animal-cattle-close-up-458991/
+Jim - Photo by Jan Koetsier: https://www.pexels.com/photo/black-and-white-dairy-cow-s-head-2647053/ \
+Jerry - Photo by Stijn Dijkstra: https://www.pexels.com/photo/highland-cow-standing-in-forest-14297730/ \
+Sherry - Photo by Colin Lloyd: https://www.pexels.com/photo/white-and-black-short-coated-pig-running-on-water-3751036/ \
+Mystery Cow - Photo by Vincent M.A. Janssen: https://www.pexels.com/photo/portrait-of-wild-cow-in-countryside-6322611/
+
 
 
