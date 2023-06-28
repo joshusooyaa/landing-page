@@ -1,0 +1,97 @@
+/* Start general element styling */
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: roboto, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* End general element styling */
+
+
+/* Start header styling */
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 10px 20%;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.header-links ul {
+  display: flex;
+  gap: 12px;
+}
+
+.header-links a {
+  color: #E5E7EB;
+}
+
+.header-information {
+  display: flex;
+  padding: 10% 0;
+  gap: 32px;
+}
+
+.header-bar a {
+  height: 100%;
+}
+
+.header-bar a img {
+  height: 100%;
+  width: auto;
+}
+
+.header-information .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-information .description,
+.header-information img {
+  width: 300px;
+  flex: 1;
+  object-fit: contain;
+}
+
+.header-information .description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.header-information .description p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.header-information .description .button {
+  background-color: #3882F6;
+  display: inline;
+  align-self: flex-start; /* remove stretch */
+  color: #F9FAF8;
+  padding: 8px 32px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+/* End header styling */
