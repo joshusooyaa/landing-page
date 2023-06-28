@@ -173,6 +173,9 @@ a {
 }
 
 /* End quote-container styling */
+
+
+/* Start sign-up styling */
 .sign-up {
   margin: 100px 20%;
   display: flex;
@@ -211,9 +214,22 @@ a {
 .sign-up h3, .sign-up p {
   margin: 0;
 }
-
-/* Start sign-up styling */
-
-
-
 /* End sign-up styling */
+
+
+/* Start footer styling */
+.footer {
+  background-color: #1F2937;
+  padding: 10px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: #E5E7EB;
+  font-style: italic;
+}
+
+
+/* End footer styling */
